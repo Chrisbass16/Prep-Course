@@ -1,0 +1,16 @@
+Este es el archivo separado para definir los siguientes puntos:
+    Variable: una variable es un conjunto de caracteres al cual yo le puedo asignar un valor para poder usarlo luego:
+        var saludo
+        saludo = 'hola';
+    String: una string es un conjunto de texto que se escribe entre dos comillas simples.
+        'asd asd asd asd'
+    Funciones: las funciones son tipos de objetos particulares que pueden ser invocados ('callable')
+               Estas mismas sirven para calcular, combinar y cambiar variables.
+               Su sintaxis consta de la declaración seguida del nombre de la función, sus argumentos entre () y el contenido entre {}
+        function pruebadefunction(prueba){}
+               Los argumentos son variables que van a tomar un valor cuando la función sea invocada y van separados por comas.
+               La declaración 'return' sirve para devolver el contenido deseado en consola.
+    Declaraciones IF: es un tipo de variable que es capaz de manejar el control de flujo. Es literalmente un "si" condicional. Si sucede esto,
+                      pues retorna esto. Si no (else) retorna esto otro.
+    Valores booleanos: son valores que remiten a un valor un solo carácter: un si o un no. Un 1 o un 0. Un true o un false.
+    
