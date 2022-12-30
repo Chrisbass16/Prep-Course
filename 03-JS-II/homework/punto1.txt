@@ -1,0 +1,16 @@
+Tarea JSII
+
+1)
+A)  El comando 'FOR' es un bucle diseñado para imprimir en pantalla un bloque de código
+    repetidamente. Cuenta con una función con parámetros que dan un inicio y un stop a la misma, 
+    permitiéndonos imprimir muchas dígitos sin la necesidad de tipearlos constantemente.
+B)  Los operadores lógicos '&&' (Y or And), '||' (O or Or) y '!' funcioinan a partir de la tabla
+    de verdad que está basada para usar dos parámetros para dar un resultado booleano.
+    En el caso de && funciona como si las variables (x, y) dan determinado resultado, devuelve 'true'
+        En el caso de que alguna de las dos no cumpla con la condición devuelve 'false'
+        Y si ambas no cumplen con la condición también devuelve 'false'
+    En el caso de || funciona como si las variables (x, y) dan determinado resultado, devuelve 'true'
+        En el caso de que alguna de las dos no cumpla con la condición también devuelve 'true'
+        Solo en el caso de si ambas no cumplen con la condición devuelve 'false'
+    El caso de '!' es distinto porque funciona como un negador del parámetro.
+        Si la variable x da true pues variable !x dará false.    
