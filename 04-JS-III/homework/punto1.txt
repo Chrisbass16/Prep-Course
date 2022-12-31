@@ -1,0 +1,14 @@
+Tarea JS III
+1)  Un 'array' (matriz o arreglo) es una colección de elementos que pueden ser de distintos tipos tales como números, strings, booleanos, funciones, etc.
+    Se declaran como una variable con su nombre y luego se usan corchetes '[]' para la insersión de elementos.
+    Por ejemplo:
+        const lista = [1, 2, 3, 4, 5];
+    Estos mismos pueden ser acompañados de las funciones:
+        lista.lenght: para ver la cantidad de elementos que tiene
+        lista.push: para añadir un elemento al final de la lista
+        lista.pop: para imprimir y luego borrar el último elemento del array
+        lista.unshift: para añadir un elemento al principio de la lista
+        lista.shift: para imprimir y luego eliminar el primer elemento de la lista
+    Para imprimir todos los elementos en pantalla debemos utilizar un FOR de esta manera:
+        for(i=0; i < lista.lenght; i++)
+            console.log(lista[i]);
