@@ -9,7 +9,7 @@ function crearGato (nombre, edad) {
   var cats = {
     nombre: nombre,
     edad: edad,
-    meow: function(meow){
+    meow: function(){
       return "Meow!";
     } 
   }
@@ -153,8 +153,8 @@ function agregarMetodoCalculoDescuento (producto) {
   var a = 0;
   var precioConDescuento = 0;
   producto.calcularPrecioDescuento = function() {
-    a = producto.precio * producto.porcentajeDeDescuento;
-    precioConDescuento = producto.precio - a;
+    a = this.precio * this.porcentajeDeDescuento;
+    precioConDescuento = this.precio - a;
     return precioConDescuento;
   }
   return producto;

@@ -1,0 +1,57 @@
+Tarea JS IV:
+
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años.
+Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+    Objetos
+    Propiedades
+    Métodos
+    Bucle for…in
+    Notación de puntos vs notación de corchetes
+
+Objetos:
+    Los objetos son contenedores de diversos tipos de datos. Pueden almacenar strings, numeros, booleanos tanto como arrays y funciones dentro suyo.
+    Su sintáxis se escribe como
+        var objeto = {}
+
+Propiedades:
+    Una propiedad son los valores dentro de un objeto que son como sus características. Si tenemos el objeto persona dentro podemos tener las propiedades 'edad', 'nombre', etc.
+    Su sintaxis sería
+        var objeto = {
+            edad: 25,
+            nombre: 'Chris'
+        }
+
+Métodos:
+    Los métodos son funciones que existen dentro de un objeto. Podemos tener una función que salude al objeto de manera tal como:
+        var objeto = {
+            edad: 25,
+            nombre: 'Chris',
+            saludar: function (){
+                console.log('Hola ' + this.nombre)
+            }
+        }
+
+Bucle for..in:
+    El bucle for..in sirve específicamente para recorrer las propiedades dentro de un objeto. 
+        for (let clave in objeto){
+            console.log (clave);
+            console.log(objeto[clave]);
+        }
+    // Imprimiría esto:
+    edad
+    25
+    nombre
+    'Chris'
+    saludar()
+    'Hola Chris'
+
+Notación de puntos vs notación de corchetes:
+    Las distintas notaciones tienen la misma funcionalidad pero una puede ser más específica que la otra.
+    Acá en JS podemos usar la notación de puntos para modificar un valor:
+        objeto.edad = 30;
+    Si lo hacemos con notación de corchetes nos quedaría
+        objeto['edad'] = 30; //así, como si fuera un string.
+    PAra llamar una función dentro del objeto con notación de puntos:
+        objeto.saludar();
+    Y para hacerlo con notación de corchetes:
+        objeto[saludar]; //así, sin comillas.
